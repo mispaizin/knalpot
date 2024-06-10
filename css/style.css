@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   /* overflow-x: hidden; */
+  height: 800px;
 }
 :root {
   --bg: rgb(175, 175, 175);
@@ -94,6 +95,74 @@ body {
   opacity: 0;
   transform: scale(0);
 }
+/* akir navbar */
+
+/* hero */
+.hero{
+  display: flex;
+  min-height: 100vh;
+  background-image: url(../img/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .content{
+  max-width: 70%;
+  padding: 1.4rem 7%;
+  text-align: center;
+}
+
+.hero .content h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #df8510;
+  text-shadow: -2px -1px 0 rgb(255, 255, 255);
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.hero .content h2{
+  margin: 5px 0;
+  color: white;
+  font-size: 2.1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+  text-align: center;
+}
+
+.hero .content p b{
+  color: #df8510;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero .content p{
+  color: white;
+  line-height: 1.2rem;
+}
+
+.hero .content ul{
+  display: flex;
+  border: 1px solid salmon;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero .content ul li{
+  background-color: #df8510;
+  padding: 8px;
+  border-radius: 5px;
+  
+}
+
+/* akhir hero */
+
 
 /* responsive */
 /* tablet */
