@@ -37,7 +37,7 @@ body {
   font-size: 1rem;
   color: var(--bg);
 }
-.navbar .nav-link a:hover {
+.navbar .container .nav-link a:hover {
   color: var(--mono);
 }
 .navbar .nav-logo a:hover {
@@ -116,13 +116,13 @@ body {
 }
 
 .hero .content h1{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: #df8510;
   text-shadow: -2px -1px 0 rgb(255, 255, 255);
   text-align: center;
   text-transform: capitalize;
-
+line-height: 1.2em;
 }
 
 .hero .content h2{
@@ -148,20 +148,64 @@ body {
 
 .hero .content ul{
   display: flex;
-  border: 1px solid salmon;
   text-align: center;
   justify-content: center;
   gap: 10px;
+  padding: 10px 0;
 }
 
 .hero .content ul li{
-  background-color: #df8510;
-  padding: 8px;
+  background-color: none;
+  padding: 8px 1px;
   border-radius: 5px;
+  border: 2.5px solid #df8510;
+  justify-content: center;
+  align-items: center;
   
 }
+.hero .content ul .phone a{
+  color: #df8510;
+}
+.hero .content ul .phone:hover {
+ background-color:#dadada88;
+ transition: all 0.5s;
+ border: 2.5px solid #dadada88;
+}
+
+.hero .content ul li img{
+  width: 20%;
+  margin: 0 3px;
+}
+.hero .content ul .wa img{
+  width: 30%;
+}
+
+.hero .content ul .wa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid #2C8A02;
+}
+.hero .content ul .wa a{
+  color: #2C8A02;
+}
+.hero .content ul .wa:hover {
+  background-color:#dadada88;
+  transition: all 0.5s;
+  color: black;
+  border: 2.5px solid #dadada88;
+ }
 
 /* akhir hero */
+
+/* tentang kami */
+.tentang-kami .container{
+  padding: 1.4rem 7%;
+}
+.tentang-kami .container h2{
+  text-align: center;
+}
+/* akhir tentang kami☻ */
 
 
 /* responsive */
