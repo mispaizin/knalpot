@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   /* overflow-x: hidden; */
-  height: 800px;
+  height: 8000px;
 }
 :root {
   --bg: rgb(175, 175, 175);
@@ -202,10 +202,38 @@ line-height: 1.2em;
 .tentang-kami .container{
   padding: 1.4rem 7%;
 }
-.tentang-kami .container h2{
+.tentang-kami .container h2,.customer .container h2{
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1.4rem 0;
 }
-/* akhir tentang kami☻ */
+.tentang-kami .container h2 span, .customer .container span{
+  color: #df8510;
+}
+.tentang-kami .container p{
+  line-height: 1.5em;
+  text-align: justify;
+}
+/* akhir tentang kami */
+
+/* customer */
+.customer .container{
+  padding: 1.4rem 0;
+  background-color: #f3f3f3;
+}
+.customer .container .img{
+  display: flex;
+  margin: 1.4rem 7%;
+}
+.customer .container img{
+  object-fit:cover;
+  width: 100%;
+  height: auto;
+}
+
+
+/*akhir customer */
 
 
 /* responsive */
