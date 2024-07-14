@@ -9,6 +9,9 @@ body {
   --primery: black;
   --mono: #df8510;
 }
+section{
+  text-align: center;
+}
 
 /* navbar */
 .navbar {
@@ -199,16 +202,17 @@ line-height: 1.2em;
 /* akhir hero */
 
 /* tentang kami */
-.tentang-kami .container{
+.tentang-kami .container , .layanan-kami .container{
   padding: 1.4rem 7%;
+  
 }
-.tentang-kami .container h2,.customer .container h2{
+.tentang-kami .container h2,.customer .container h2, .layanan-kami .container h2{
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
   padding: 1.4rem 0;
 }
-.tentang-kami .container h2 span, .customer .container span{
+.tentang-kami .container h2 span, .customer .container span, .layanan-kami .container h2 span{
   color: #df8510;
 }
 .tentang-kami .container p{
@@ -273,6 +277,22 @@ height: auto;
   margin: 1rem 0;
 }
 /* akhir alasan */
+/* layanan kami */
+.layanan-kami{
+  background-color: #f3f3f3;
+  ;
+}
+.layanan-kami h3{
+  text-align: center;
+  color: red;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: -20px 0 10px;
+}
+.layanan-kami p{
+  line-height: 1.3em;
+}
+/* akhir layanan kami */
 
 
 /* responsive */
